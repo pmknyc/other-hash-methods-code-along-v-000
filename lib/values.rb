@@ -8,9 +8,5 @@ require 'pry'
 #  grains: ["rice", "pasta"]
 # }
 
-def get_the_values(groceries)
+def get_the_values
   groceries.values.flatten
-#  groceries.each do |grocery_type, item_array|
-#    grocery_type.values
-  binding.pry
-end
