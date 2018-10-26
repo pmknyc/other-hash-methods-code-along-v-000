@@ -9,5 +9,9 @@ require 'pry'
 # }
 
 def get_the_values(groceries)
-  #code your solution here!
+  groceries.values
+#  groceries.each do |grocery_type, item_array|
+#    grocery_type.values
+  binding.pry
+  end.flatten
 end
